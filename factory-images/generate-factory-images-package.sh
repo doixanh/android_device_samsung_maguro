@@ -29,29 +29,23 @@
 # 533553 = JOP40D
 # 551245 = JDP82
 # 573038 = JDQ39
-# 683083 = JWR51
-# 689345 = JWR58
-# 690834 = JWR59
-# 704243 = JWR66G
-# 711294 = JWR66N
-# 737497 = JWR66V
 
 source ../../../common/clear-factory-images-variables.sh
-BUILD=737497
+BUILD=573038
 DEVICE=maguro
 PRODUCT=yakju
-VERSION=jwr66v
+VERSION=jdq39
 SRCPREFIX=signed-
-BOOTLOADER=primemd04
+BOOTLOADER=primelc03
 RADIO=i9250xxlj1
 source ../../../common/generate-factory-images-common.sh
 
 source ../../../common/clear-factory-images-variables.sh
-BUILD=737497
+BUILD=573038
 DEVICE=maguro
 PRODUCT=takju
-VERSION=jwr66v
+VERSION=jdq39
 SRCPREFIX=signed-
-BOOTLOADER=primemd04
+BOOTLOADER=primelc03
 RADIO=i9250xxlj1
 source ../../../common/generate-factory-images-common.sh
